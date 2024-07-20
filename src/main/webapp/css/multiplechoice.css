@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.sidebar{
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 210px;
+    height: 100vh;
+    padding: 0 1.7em;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-right: 1px solid #001e4d;
+    border-top: 1px solid #001e4d;
+    border-bottom: 1px solid #001e4d;
+    border-radius: 13px;
+
+    
+}
+/* .sidebar:hover{
+   background-color: #222;
+} */
+.logo{
+    height: 80px;
+   font-size: 38px;
+    color: rgba(113, 99, 186,255);
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+  
+}
+.menu li:hover,
+.upload{
+    background: #e0e0e058;
+
+
+}
+.menu a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.menu a i{
+    font-size: 1.2rem;
+    color: rgb(161, 161, 237);
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 500px;
+   margin-top: -580px;
+   margin-left: 400px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 3px solid #001e4d;
+}
+
+
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    
+    border: 1px solid #222;
+    padding: 8px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+#next-btn1{
+    background: rgba(113, 99, 186,255);
+    color: #fff;
+    font-weight: 500;
+    width: 80px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+   margin-left:53px ;
+     
+}
+#next-btn2{
+    background: rgba(113, 99, 186,255);
+    color: #fff;
+    font-weight: 500;
+    width: 80px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:53px ;
+     
+}
+#next-btn3{
+    background: rgba(113, 99, 186,255);
+    color: #fff;
+    font-weight: 500;
+    width: 80px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:53px ;
+     
+}
+#next-btn:hover{
+    background: #001e4d;
+}
